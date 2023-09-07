@@ -3,9 +3,22 @@
 
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    
+
+    <meta name="author" content="Chris Mills">
+    <meta name="description" content="This is an example page to demonstrate usage of metadata on web pages.">
+
+    <meta property="og:image" content="https://developer.mozilla.org/mdn-social-share.png">
+    <meta property="og:description" content="This is an example page to demonstrate usage of metadata on web pages.">
+    <meta property="og:title" content="Metadata; The HTML &lt;head&gt;, on MDN">
+
+
+    <meta charset="utf-8">
     <title>My first page</title>
     <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
     <link href="styles/styles.css" rel="stylesheet" type="text/css">
+    <link rel="shortcut icon" href="image/icon.svg" type="image/x-icon" />
 </head>
 
 <body>
@@ -14,17 +27,18 @@
 
     <p>At Mozilla, we’re a global community of</p>
 
-    <ul> <!-- changed to list in the tutorial -->
-        <li>technologists</li>
-        <li>thinkers</li>
-        <li>builders</li>
+    <ul class="ul1"> <!-- changed to list in the tutorial -->
+        <li class="li1" >technologists</li>
+        <li class="li1">thinkers</li>
+        <li class="li1">builders</li>
     </ul>
 
     <p>working together to keep the Internet alive and accessible, so people worldwide can be informed contributors and
         creators of the Web. We believe this act of human collaboration across an open platform is essential to
         individual growth and our collective future.</p>
 
-    <p>Read the <a target="_blank"   href="https://www.mozilla.org/en-US/about/manifesto/">Mozilla Manifesto</a> to learn even more about
+    <p>Read the <a target="_blank" href="https://www.mozilla.org/en-US/about/manifesto/">Mozilla Manifesto</a> to learn
+        even more about
         the values and principles that guide the pursuit of our mission.</p>
     <table>
         <tr>
@@ -33,14 +47,15 @@
             <td>3</td>
             <td>4</td>
         </tr>
-            <td>5</td>
-            <td>6</td>
-            <td>7</td>
-            <td>8</td>
+        <td>5</td>
+        <td>6</td>
+        <td>7</td>
+        <td>8</td>
         </tr>
-        
+
     </table>
     <button>Change user</button>
+    
     <script src="scripts/main.js"></script>
 </body>
 
